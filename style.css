@@ -2,10 +2,6 @@ body,
 html {
   height: 80%;
 }
-.btn-CAR {
-  margin-left: 20px;
-  margin-right: 20px;
-}
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
@@ -23,8 +19,8 @@ html {
 }
 /* Sergios Carousel code ? */
 .Car-img-sizer {
-  width: 200px;
-  height: 600px;
+  width: 100px;
+  height: 500px;
   /* Sergios ^ */
 }
 body,
@@ -39,9 +35,63 @@ footer {
   text-align: center;
   background-color: black;
   color: grey;
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
+  font-size: 20px;
 }
 .katieKirlinFund {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
   font-weight: 700;
   font-size: 20px;
+}
+.otherMediaPic1,
+.otherMediaPic2 {
+  width: 350px;
+  height: 300px;
+}
+a {
+  font-family: "New Century Schoolbook", "TeX Gyre Schola", "serif";
+  font-weight: 700;
+  font-size: 20px;
+}
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button2 {
+  background-color: red;
+  color: black;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.button2:hover {
+  background-color: rgb(180, 0, 0);
+  color: white;
+  border-radius: 12px;
+}
+a:visited,
+a:link {
+  color: white;
+}
+.float-right {
+  float: right;
+}
+.textfield {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  padding: 7px;
+  background: #efefef;
+  border: 1px solid #bbb;
+  width: 97%;
+}
+.textfield:focus {
+  background: #fbf8d2;
 }
